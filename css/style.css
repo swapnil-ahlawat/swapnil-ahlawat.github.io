@@ -94,8 +94,20 @@ body {
   }
 }
 @media (max-width: 768px) {
+  .self {
+    max-width: 300px;
+  }
+  body {
+    font-size: 0.5em;
+  }
 }
 @media (max-width: 576px) {
+  .self {
+    max-width: 300px;
+  }
+  body {
+    font-size: 0.5em;
+  }
 }
 
 /*--- Bootstrap Padding Fix --*/
