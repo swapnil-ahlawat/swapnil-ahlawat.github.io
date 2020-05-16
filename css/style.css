@@ -4,16 +4,22 @@
   padding: 0;
   font-family: 'Raleway', sans-serif;
 }
+main {
+  height: 100%;
+  width: 100%;
+}
 html {
   scroll-behavior: smooth;
 }
+
 body {
   background-color: #f5f5f5;
 }
+
 .text-center {
   text-align: center;
 }
-.left {
+.text-left {
   text-align: left;
 }
 
@@ -29,8 +35,10 @@ body {
 .padding-left {
   padding-left: 1.5rem;
 }
-
-.padding-left {
+.padding-bottom {
+  padding-bottom: 1.2em;
+}
+.padding-right {
   padding-right: 1.5rem;
 }
 .content {
@@ -44,10 +52,6 @@ body {
   display: block;
   margin-left: auto;
   margin-right: auto;
-}
-.ext-link {
-  color: #2f4454;
-  text-decoration: none;
 }
 .social a {
   font-size: 4.5em;
@@ -63,20 +67,33 @@ body {
 .fa-linkedin {
   color: #0e76a8;
 }
-.ext-link:hover,
-.write-me:hover {
-  text-decoration: none;
+.fa-phone-alt {
+  color: #1e9b6b;
 }
-.ext-link:hover,
+#about-me .fa-phone-alt,
+#about-me .fa-linkedin {
+  color: #f5f5f5;
+}
+.fa-map-marker-alt {
+  color: #0e76a8;
+}
+
+.fa-phone-alt:hover,
+.fa-map-marker-alt:hover,
 .fa-envelope:hover,
 .fa-github:hover,
 .fa-linkedin:hover {
   color: #d5d5d5;
 }
+
+.write-me:hover {
+  text-decoration: none;
+}
 .btn-primary {
   background-color: #343a40;
   border-color: #343a40;
 }
+
 .btn-primary:hover,
 .write-me:hover {
   background-color: #d5d5d5;
@@ -87,11 +104,26 @@ body {
   color: #f5f5f5;
   text-decoration: none;
 }
+.background-dark {
+  background-color: #343a40;
+  color: #f5f5f5;
+}
+.background-light {
+  background-color: #f5f5f5;
+  color: #343a40;
+}
+.skillprop {
+  padding: 0.5em;
+  display: inline;
+}
+.text-mid-left {
+  left: 15%;
+}
+.text-mid-right {
+  left: 35%;
+}
 /*---Media Queries --*/
 @media (max-width: 991px) {
-  .self {
-    max-width: 350px;
-  }
 }
 @media (max-width: 768px) {
   .self {
@@ -99,10 +131,7 @@ body {
   }
 }
 @media (max-width: 576px) {
-  .padding {
-    padding: 3em;
-  }
   .self {
-    max-width: 200px;
+    max-width: 250px;
   }
 }

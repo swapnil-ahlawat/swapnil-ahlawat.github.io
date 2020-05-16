@@ -19,7 +19,7 @@
       rel="stylesheet"
     />
   </head>
-  <body class="font-media">
+  <body>
     <!-- Navigation -->
     <header>
       <nav class="navbar sticky-top navbar-expand-lg navbar-dark bg-dark">
@@ -42,10 +42,10 @@
               <a class="nav-link" href="#about-me">About me</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#work-experience">Work Experience</a>
+              <a class="nav-link" href="#experience">Work Experience</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#education">Projects</a>
+              <a class="nav-link" href="#project">Projects</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#education">Education</a>
@@ -59,9 +59,10 @@
           </ul>
       </nav>
     </header>
+    <main>
     <!--About me-->
-    <div class="container-fluid padding font-media">
-      <div class="row padding">
+    <div class="container-fluid padding padding-top">
+      <div class="row padding padding-top">
         <div class="col-lg-5">
           <img src="images/self.jpg" class="img-fluid self" />
           <h1 class="text-center padding-top">Swapnil Ahlawat</h1>
@@ -86,43 +87,249 @@
                 and Web Development.
               </li>
             </ul>
-            <div class="col-12 padding text-center padding-top">
-              <br/>
-              <br/>
-              <button type="button" class="btn btn-primary btn-lg"><a href="#contact" class="write-me">
+          </div>
+
+          <br>
+          
+           <div class="padding text-center">
+              <button type="button" class="btn btn-primary btn-lg"> <a href="tel:9818284672" class="write-me">
+                <i class="fas fa-phone-alt"></i> CONTACT ME!
+              </a>
+              </button>
+              <button type="button" class=" btn btn-primary btn-lg"><a href="mailto:swapnil.ahlawat@gmail.com"target="_blank" class="write-me">
                 <i class="fab fa-telegram-plane"></i> WRITE TO ME!
               </a>
               </button>
+              <button type="button" class="btn btn-primary btn-lg"><a
+                href="https://www.linkedin.com/in/swapnilahlawat"
+                target="_blank" class="write-me"
+                ><i class="fab fa-linkedin"></i
+              > CHECK ME OUT!
+              </a>
+              </button>
+              </div>
+
+              </div>
+          </div>
+      </div>
+    <!--- Experience -->
+    <div class="container-fluid padding background-dark">
+      <div class="row padding">
+        <h1 id="experience" class="text-center col-12">Experience</h1>
+        
+        <div class="col-md-4 padding text-dark">
+          <div class="card">
+              <div class="card-body">
+              <h2 class="card-title">Research Intern</h2>
+              <h4 class="card-subtitle mb-2 text-muted">CEERI, Pilani</h4>
+              <h6 class="card-text">May 2020-Jun 2020</h6>
+              <p class="card-text">Worked on Deep Learning Project for 6 weeks</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 padding text-dark">
+          <div class="card">
+              <div class="card-body">
+              <h2 class="card-title">Chief Coordinator</h2>
+              <h4 class="card-subtitle mb-2 text-muted">Zephyr Controls</h4>
+              <h6 class="card-text">April 2019-May 2020</h6>
+              <p class="card-text">Led a 2-tier team of 50+ members in organizing a 3-day multi-event fest with 900+ participants.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 padding text-dark">
+          <div class="card">
+              <div class="card-body">
+              <h2 class="card-title">Core Member</h2>
+              <h6 class="card-subtitle mb-2 text-muted">Department of Backstage & Infrastructure</h6>
+              <h6 class="card-subtitle mb-2 text-muted">Department of Publicity & Public Relations</h6>
+              <h6 class="card-text">May 2020-Jul 2020</h6>
+              <p class="card-text">Managed infrastructure and called participants for our college's 3 grand fests: Waves, Quark and Spree.</p>
             </div>
           </div>
         </div>
       </div>
     </div>
+    <!--- Projects -->
+    <div class="container-fluid padding background-light">
+      <div class="row padding">
+      <h1 id="project" class="text-center col-12">Projects</h1>
+        <ul class= "container padding">
+            <li>
+              <h5 class="padding-top">Speech Recognition with Spiking Neural Networks</h5>
+              <h6>SOP under Prof. Basabdatta Sen Bhattacharya</h5>
+                <p>Developing Industry-usable Speech Recognition Model using Spiking Neural Networks from scratch</p>
+            </li>
+            <li>
+              <h5 class="padding-top">Face Recognition System</h5>
+                <p>A Face Verification System, later on developed into Face
+                  Recognition System, developed using FaceNet model</p>
+            </li>
+            <li>
+              <h5 class="padding-top">Autonomous Driving Application</h5>
+                <p>A vehicle detection system developed using YOLO</p>
+            </li>
+            <li>
+              <h5 class="padding-top">Art Generation with Neural Style Transfer</h5>
+                <p>Generates novel artistic images by combining picture with art using
+                  Neural Style Transfer</p>
+            </li>
+            <li>
+              <h5 class="padding-top">Jazz Music Generator</h5>
+                <p>Generates unique Jazz music using LSTM network model</p>
+            </li>
+            <li>
+              <h5 class="padding-top">Dinosaur's Island</h5>
+                <p>Developed a character level language model using RNN that
+                  generates random dinosaur species names</p>
+            </li>
+            <li>
+              <h5 class="padding-top"> Emojifier</h5>
+                <p>A model that takes a sentence as input and adds a suitable Emoji at
+                  the end of it (developed using Word2Vec, GloVe, and LSTM)</p>
+            </li>
+            <li>
+              <h5 class="padding-top">Date Translator</h5>
+                <p>Neural Machine Translation (NMT) model to translate humanreadable
+                dates ("25th of June, 2009") into machine-readable dates
+                ("2009-06-25").</p>
+            </li>
+            <li>
+              <h5 class="padding-top">Trigger Word Detector</h5>
+                <p>A model that takes an audio clip as input and detects the points
+                  when trigger words were said</p>
+            </li>
+            <li>
+              <h5 class="padding-top">Movie Recommender System</h5>
+                <p>Recommending movies to users using ML</p>
+            </li>
+            <li>
+              <h5 class="padding-top">Spam Email Classifier</h5>
+                <p>Classifying emails as spam or not on the basis of their content</p>
+            </li>
+        </ul>
+      </div>
+    </div>
 
-    <!--- Jumbotron -->
+    <!--- Education -->
+    <div class="container-fluid padding background-dark">
+      <div class="row padding">
+        <h1 id="education" class="text-center col-12">Education</h1>
+        
+        <div class="col-md-6 padding text-dark">
+          <div class="card padding">
+              <div class="card-body">
+              <h2 class="card-title">B.E. Computer Science Engineering</h2>
+              <h4 class="card-subtitle mb-2 text-muted">BITS Pilani K. K. Birla Goa Campus</h4>
+              <h6 class="card-text">Aug 2018-Aug 2022</h6>
+              <h6 class="card-text">CGPA-9.39</h6>
+              <h6 class="card-text">Courses:</h6>
+              <ul>
+                <li>Foundations of Data Science</li>
+                <li>Data Structures & Algorithms</li>
+                <li>Database Systems</li>
+                <li>Object Oriented Programming</li>
+                <li>Computer Programming</li>
+                <li>Probability and Statistics</li>
+                <li>Discrete Structures for Computer Science</li>
+                <li>Introduction to Robotics (CTE)</li>
+                <li>Machine Learning (QSTP)</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 text-dark">
+        <div class="col-md-12 padding text-dark">
+          <div class="card padding">
+              <div class="card-body">
+              <h2 class="card-title">Deep Learning Specialization</h2>
+             <h4 class="card-subtitle mb-2 text-muted">deeplearning.ai - Coursera</h4>
+             <h6 class="card-text">Courses:</h6>
+             <ul>
+               <li>Neural Networks and Deep Learning</li>
+               <li>Improving Deep Neural Networks:Hyperparameter tuning, Regularization and Optimization</li>
+               <li>Structuring Machine Learning Projects</li>
+               <li>Convolutional Neural Networks</li>
+               <li>Sequence Models</li>
+             </ul>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-12 padding text-dark">
+          <div class="card">
+              <div class="card-body">
+              <h2 class="card-title">AndrewNG's Machine Learning</h2>
+              <h4 class="card-subtitle mb-2 text-muted">Stanford Online-Coursera</h4>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
 
-    <!--- Welcome Section -->
+    <!--- Skills -->
+    <div class="container padding padding-top background-light">
+      <div class="row padding padding-top text-center">
+        <h1 id="skills" class="text-center padding col-12">Technical Skills</h1>
+      <h1 class="skillprop">JavaScript</h1>
+      <h2 class="skillprop">C++</h2>
+      <h3 class="skillprop">HTML</h3>
+      <h2 class="skillprop">SNNs</h2>
+      <h4 class="skillprop">C</h4>
+      <h1 class="skillprop">CSS</h1>
+      <h1 class="skillprop">Python</h1>
+      <h2 class="skillprop">LINUX</h2>
+      <h4 class="skillprop">Computer Vision</h4>
+      <h1 class="skillprop">Pytorch</h1>
+      <h2 class="skillprop">JAVA</h2>
+      <h4 class="skillprop">Sequential Models</h4>
+      <h1 class="skillprop">MySQL</h1>
+      <h2 class="skillprop">Github</h2>
+      <h3 class="skillprop">Data Structures</h3>
+      <h3 class="skillprop">MATLAB</h3> 
+      <h4 class="skillprop">Typescript</h4>
+      <h3 class="skillprop">Networking</h3>
+      <h1 class="skillprop">Keras</h1>
+      <h1 class="skillprop">AngularJS</h1>
+      <h4 class="skillprop">Competitive Coding</h4>
+      <h1 class="skillprop">Arduino</h1>
+      <h3 class="skillprop">Tensorflow</h3>
+    </div>
+  </div>
+  <div class="container-fluid padding padding-top">
+    <div class="row padding padding">
+      <div class="col-md-4  background-dark">
+        <h1 class="text-center col-12 padding-top padding-bottom">Hobbies</h1>
+        <h3 class="text-left col-12 padding-left padding-bottom">Guitar</h3>
+        <h3 class="text-left col-12 padding-left padding-bottom">Football</h3>
+        <h3 class="text-left col-12 padding-left padding-bottom">Competitive Coding</h3>
+        <h3 class="text-left col-12 padding-left padding-bottom">Gymnasium</h3>
+      </div>
+      <div class="col-md-4  background-light">
+        <h1 class="text-center col-12 padding-top padding-bottom">Interpersonal Skills</h1>
+        <h3 class="text-mid-left col-12 padding-bottom">Teamwork</h3>
+        <h3 class="text-mid-right col-12 padding-bottom">Communication</h3>
+        <h3 class="text-mid-left col-12 padding-bottom">Leadership</h3>
+        <h3 class="text-mid-right col-12 padding-bottom">Public Speaking</h3>
+      </div>
 
-    <!--- Three Column Section -->
-
-    <!--- Two Column Section -->
-
-    <!--- Fixed background -->
-
-    <!--- Emoji Section -->
-
-    <!--- Meet the team -->
-
-    <!--- Cards -->
-
-    <!--- Two Column Section -->
+      <div class="col-md-4  background-dark">
+        <h1 class="text-center col-12 padding-top padding-bottom">Languages</h1>
+        <h3 class="text-right col-12 padding-right padding-bottom">English</h3>
+        <h3 class="text-right col-12 padding-right padding-bottom">Hindi</h3>
+        <h3 class="text-right col-12 padding-bottom">French</h3>
+      </div>
+    </div>
+  </div>
 
     <!--- Connect -->
     <div class="container-fluid padding">
       <div class="row padding">
-        <h2 id="contact" class="text-center col-12">Connect</h2>
+        <h2 id="contact" class="text-center col-12 padding-bottom">Connect with me!</h2>
+        
         <div class="col-12 social text-center">
-          <a href="#contact" target="_blank"
+          <a href="tel:9818284672"><i class="fas fa-phone-alt"></i></a>
+          <a href="mailto:swapnil.ahlawat@gmail.com"target="_blank"
             ><i class="fas fa-envelope"></i
           ></a>
           <a
@@ -130,12 +337,13 @@
             target="_blank"
             ><i class="fab fa-linkedin"></i
           ></a>
-          <a href="https://github.com/swapnil2001" target="_blank"
-            ><i class="fab fa-github"></i
-          ></a>
+          <a href="https://github.com/swapnil2001" target="_blank"><i class="fab fa-github"></i></a>
+          <a href="https://goo.gl/maps/ep3rF9vMCezm8XiD7" target="_blank">
+            <i class="fas fa-map-marker-alt"></i></a>
         </div>
       </div>
     </div>
+    </main>
     <!--- Footer -->
   </body>
 </html>
