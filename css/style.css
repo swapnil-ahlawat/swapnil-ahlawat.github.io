@@ -11,7 +11,6 @@ main {
 html {
   scroll-behavior: smooth;
 }
-
 body {
   background-color: #f5f5f5;
 }
@@ -95,11 +94,9 @@ body {
 .social .fa-phone-alt {
   color: #1e9b6b;
 }
-
 .social .fa-map-marker-alt {
   color: #0e76a8;
 }
-
 .fa-phone-alt:hover,
 .fa-map-marker-alt:hover,
 .fa-envelope:hover,
@@ -107,7 +104,6 @@ body {
 .fa-linkedin:hover {
   color: #d5d5d5;
 }
-
 .write-me:hover {
   text-decoration: none;
 }
@@ -115,7 +111,6 @@ body {
   background-color: #343a40;
   border-color: #343a40;
 }
-
 .btn-primary:hover,
 .write-me:hover {
   background-color: #d5d5d5;
@@ -153,7 +148,6 @@ footer .padding {
   padding-top: 1rem;
   padding-bottom: 1rem;
 }
-/*---Media Queries --*/
 @media (max-width: 991px) {
   .navbar li {
     font-size: 140%;
