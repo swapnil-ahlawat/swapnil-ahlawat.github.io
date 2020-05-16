@@ -62,8 +62,8 @@
     <main>
     <!--About me-->
     <div class="container-fluid padding padding-top">
-      <div class="row padding padding-top">
-        <div class="col-lg-5">
+      <div class="row padding-top">
+        <div class="col-lg-5 image">
           <img src="images/self.jpg" class="img-fluid self" />
           <h1 class="text-center padding-top">Swapnil Ahlawat</h1>
           <h4 class="text-center padding-left padding-right">
@@ -71,7 +71,7 @@
             Coding Enthusiast | Web Developer
           </h4>
         </div>
-        <div id="about-me" class="col-lg-7 padding padding-top">
+        <div id="about-me" class="col-lg-7 padding">
           <h1>About me</h1>
           <div class="content">
             <p>
@@ -92,10 +92,12 @@
           <br>
           
            <div class="padding text-center">
-              <button type="button" class="btn btn-primary btn-lg"> <a href="tel:9818284672" class="write-me">
+              
+            <button type="button" class="btn btn-primary btn-lg"> <a href="tel:9818284672" class="write-me">
                 <i class="fas fa-phone-alt"></i> CONTACT ME!
               </a>
               </button>
+              
               <button type="button" class=" btn btn-primary btn-lg"><a href="mailto:swapnil.ahlawat@gmail.com"target="_blank" class="write-me">
                 <i class="fab fa-telegram-plane"></i> WRITE TO ME!
               </a>
@@ -106,7 +108,7 @@
                 ><i class="fab fa-linkedin"></i
               > CHECK ME OUT!
               </a>
-              </button>
+              </button>  
               </div>
 
               </div>
@@ -114,20 +116,19 @@
       </div>
     <!--- Experience -->
     <div class="container-fluid padding background-dark">
-      <div class="row padding">
-        <h1 id="experience" class="text-center col-12">Experience</h1>
-        
-        <div class="col-md-4 padding text-dark">
+      <div id="experience" class="row padding">
+        <h1  class="text-center col-12 padding-bottom">Experience</h1>
+        <div class="col-lg-4 col-md-6 padding text-dark">
           <div class="card">
               <div class="card-body">
               <h2 class="card-title">Research Intern</h2>
               <h4 class="card-subtitle mb-2 text-muted">CEERI, Pilani</h4>
               <h6 class="card-text">May 2020-Jun 2020</h6>
-              <p class="card-text">Worked on Deep Learning Project for 6 weeks</p>
+              <p class="card-text">Worked on Deep Learning Project titled "Classification of covid-19 patients" under Prof. Dash Dash for 6 weeks</p>
             </div>
           </div>
         </div>
-        <div class="col-md-4 padding text-dark">
+        <div class="col-lg-4 col-md-6 padding text-dark">
           <div class="card">
               <div class="card-body">
               <h2 class="card-title">Chief Coordinator</h2>
@@ -137,14 +138,14 @@
             </div>
           </div>
         </div>
-        <div class="col-md-4 padding text-dark">
+        <div class="col-lg-4 col md-12 padding text-dark">
           <div class="card">
               <div class="card-body">
               <h2 class="card-title">Core Member</h2>
               <h6 class="card-subtitle mb-2 text-muted">Department of Backstage & Infrastructure</h6>
               <h6 class="card-subtitle mb-2 text-muted">Department of Publicity & Public Relations</h6>
               <h6 class="card-text">May 2020-Jul 2020</h6>
-              <p class="card-text">Managed infrastructure and called participants for our college's 3 grand fests: Waves, Quark and Spree.</p>
+              <p class="card-text">Managed infrastructure and called participants for Waves'19, Quark and Spree.</p>
             </div>
           </div>
         </div>
@@ -152,11 +153,11 @@
     </div>
     <!--- Projects -->
     <div class="container-fluid padding background-light">
-      <div class="row padding">
-      <h1 id="project" class="text-center col-12">Projects</h1>
-        <ul class= "container padding">
+      <div id="project"  class="row padding">
+      <h1 class="text-center col-12 padding-bottom">Projects</h1>
+        <ul class= "container">
             <li>
-              <h5 class="padding-top">Speech Recognition with Spiking Neural Networks</h5>
+              <h5>Speech Recognition with Spiking Neural Networks</h5>
               <h6>SOP under Prof. Basabdatta Sen Bhattacharya</h5>
                 <p>Developing Industry-usable Speech Recognition Model using Spiking Neural Networks from scratch</p>
             </li>
@@ -213,11 +214,12 @@
 
     <!--- Education -->
     <div class="container-fluid padding background-dark">
-      <div class="row padding">
-        <h1 id="education" class="text-center col-12">Education</h1>
+      <div id="education" class="row padding">
+        <h1  class="text-center col-12">Education</h1>
         
-        <div class="col-md-6 padding text-dark">
-          <div class="card padding">
+        <div class="col-md-6 text-dark padding">
+          <div class="padding-top">
+          <div class="card card-padding">
               <div class="card-body">
               <h2 class="card-title">B.E. Computer Science Engineering</h2>
               <h4 class="card-subtitle mb-2 text-muted">BITS Pilani K. K. Birla Goa Campus</h4>
@@ -236,11 +238,12 @@
                 <li>Machine Learning (QSTP)</li>
               </ul>
             </div>
+            </div>
           </div>
         </div>
         <div class="col-md-6 text-dark">
-        <div class="col-md-12 padding text-dark">
-          <div class="card padding">
+        <div class="col-md-12 padding">
+          <div class="card card-padding">
               <div class="card-body">
               <h2 class="card-title">Deep Learning Specialization</h2>
              <h4 class="card-subtitle mb-2 text-muted">deeplearning.ai - Coursera</h4>
@@ -255,8 +258,8 @@
             </div>
           </div>
         </div>
-        <div class="col-lg-12 padding text-dark">
-          <div class="card">
+        <div class="col-md-12 padding">
+          <div class="card card-padding">
               <div class="card-body">
               <h2 class="card-title">AndrewNG's Machine Learning</h2>
               <h4 class="card-subtitle mb-2 text-muted">Stanford Online-Coursera</h4>
@@ -268,9 +271,9 @@
     </div>
 
     <!--- Skills -->
-    <div class="container padding padding-top background-light">
-      <div class="row padding padding-top text-center">
-        <h1 id="skills" class="text-center padding col-12">Technical Skills</h1>
+    <div class="container padding background-light">
+      <h1 id="skill-head" class="text-center padding col-12">Technical Skills</h1>
+      <div id="skills" class="row text-center">
       <h1 class="skillprop">JavaScript</h1>
       <h2 class="skillprop">C++</h2>
       <h3 class="skillprop">HTML</h3>
@@ -282,8 +285,8 @@
       <h4 class="skillprop">Computer Vision</h4>
       <h1 class="skillprop">Pytorch</h1>
       <h2 class="skillprop">JAVA</h2>
-      <h4 class="skillprop">Sequential Models</h4>
       <h1 class="skillprop">MySQL</h1>
+      <h4 class="skillprop">Sequential Models</h4>
       <h2 class="skillprop">Github</h2>
       <h3 class="skillprop">Data Structures</h3>
       <h3 class="skillprop">MATLAB</h3> 
@@ -296,28 +299,29 @@
       <h3 class="skillprop">Tensorflow</h3>
     </div>
   </div>
-  <div class="container-fluid padding padding-top">
-    <div class="row padding padding">
+  
+  <div class="bar-3 container-fluid padding padding-top">
+    <div class="row padding">
       <div class="col-md-4  background-dark">
-        <h1 class="text-center col-12 padding-top padding-bottom">Hobbies</h1>
-        <h3 class="text-left col-12 padding-left padding-bottom">Guitar</h3>
-        <h3 class="text-left col-12 padding-left padding-bottom">Football</h3>
-        <h3 class="text-left col-12 padding-left padding-bottom">Competitive Coding</h3>
-        <h3 class="text-left col-12 padding-left padding-bottom">Gymnasium</h3>
+        <h1 class="text-center padding-top padding-bottom">Hobbies</h1>
+        <h3 class="text-left padding-left padding-bottom">Guitar</h3>
+        <h3 class="text-left  padding-left padding-bottom">Football</h3>
+        <h3 class="text-left padding-left padding-bottom">Competitive Coding</h3>
+        <h3 class="text-left  padding-left padding-bottom">Gymnasium</h3>
       </div>
-      <div class="col-md-4  background-light">
-        <h1 class="text-center col-12 padding-top padding-bottom">Interpersonal Skills</h1>
-        <h3 class="text-mid-left col-12 padding-bottom">Teamwork</h3>
-        <h3 class="text-mid-right col-12 padding-bottom">Communication</h3>
-        <h3 class="text-mid-left col-12 padding-bottom">Leadership</h3>
-        <h3 class="text-mid-right col-12 padding-bottom">Public Speaking</h3>
+      <div class="col-md-4 background-light">
+        <h1 class="text-center padding-top padding-bottom">Interpersonal Skills</h1>
+        <h3 class="text-mid-left padding-bottom">Teamwork</h3>
+        <h3 class="text-mid-right padding-bottom">Communication</h3>
+        <h3 class="text-mid-left padding-bottom">Leadership</h3>
+        <h3 class="text-mid-right padding-bottom">Public Speaking</h3>
       </div>
 
       <div class="col-md-4  background-dark">
-        <h1 class="text-center col-12 padding-top padding-bottom">Languages</h1>
-        <h3 class="text-right col-12 padding-right padding-bottom">English</h3>
-        <h3 class="text-right col-12 padding-right padding-bottom">Hindi</h3>
-        <h3 class="text-right col-12 padding-bottom">French</h3>
+        <h1 class="text-center padding-top padding-bottom">Languages</h1>
+        <h3 class="text-right padding-right padding-bottom">English</h3>
+        <h3 class="text-right padding-right padding-bottom">Hindi</h3>
+        <h3 class="text-right padding-right padding-bottom">French</h3>
       </div>
     </div>
   </div>
@@ -345,5 +349,12 @@
     </div>
     </main>
     <!--- Footer -->
+    <footer class="container-fluid background-dark">
+      <div class="row padding">
+        <div class="col-md-4 text-center padding"><i class="fas fa-phone-alt"></i> : 9818284672</div>
+        <div class="col-md-4 text-center padding"><i class="fas fa-envelope"></i> : swapnil.ahlawat@gmail.com</div>
+        <div class="col-md-4 text-center padding"><i class="fas fa-map-marker-alt"></i> : BITS Pilani, Goa Campus</div>
+      </div>
+    </footer>
   </body>
 </html>
