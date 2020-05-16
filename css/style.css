@@ -223,7 +223,7 @@ footer .padding {
     padding-bottom: 0.4rem;
   }
 }
-@media (max-width: 767px) {
+@media (max-width: 575px) {
   .self {
     max-width: 250px;
   }
