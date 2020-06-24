@@ -36,6 +36,10 @@ main {
 #about-me .btn-primary {
   margin: 2%;
 }
+#experience #spacing {
+  display: block;
+  margin-bottom: 2rem;
+}
 #experience {
   background: url('../images/background1.jpg') no-repeat center;
   background-size: cover;
@@ -52,9 +56,7 @@ main {
   background: url('../images/background2.jpg') no-repeat center;
   background-size: cover;
 }
-#experience .card-body {
-  min-height: 280px;
-}
+
 .padding {
   padding: 1.5em;
 }
@@ -62,13 +64,13 @@ main {
   padding-top: 1.2em;
 }
 .padding-left {
-  padding-left: 1.5rem;
+  padding-left: 1.2rem;
 }
 .padding-bottom {
   padding-bottom: 1.2em;
 }
 .padding-right {
-  padding-right: 1.5rem;
+  padding-right: 1.2rem;
 }
 .content {
   font-size: 1.2em;
@@ -159,8 +161,9 @@ footer .padding {
   .navbar li {
     font-size: 140%;
   }
-  #experience .card-body {
-    min-height: 250px;
+  #experience #spacing {
+    display: block;
+    margin-bottom: 0rem;
   }
   #education h2 {
     font-size: 180%;
@@ -192,9 +195,7 @@ footer .padding {
   .self {
     max-width: 300px;
   }
-  #experience .card-body {
-    min-height: 200px;
-  }
+
   .text-mid-left {
     text-align: center;
   }
